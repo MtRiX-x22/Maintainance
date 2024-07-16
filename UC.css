@@ -1,0 +1,77 @@
+
+
+/* CSS for Under Construction.html */
+
+body {
+  position: relative;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', serif;
+  padding: 0;
+  text-align: center;
+  overflow: hidden; /* Prevents any potential overflow */
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://lh5.googleusercontent.com/p/AF1QipMn7UXHTwkf0ZLNecY8usxVIIcm8RuIbLN0YMg_=w408-h408-k-no');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.09; /* Adjust the opacity value as needed */
+  z-index: -1; /* Ensure the pseudo-element is behind the content */
+}
+
+.Maintenance {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  z-index: 1; /* Ensure the content is above the pseudo-element */
+  position: relative; /* Establish a stacking context */
+}
+
+h1 {
+  color: #000000;
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+h2, h3, h4 {
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 30px;
+}
+
+p{
+  font-size: 20px;
+}
+
+p a {
+  padding-right: 20px;
+}
